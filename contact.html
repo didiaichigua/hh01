@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+<header>
+    <div class="icon-box"></div>
+    <nav class="navbar">
+        <a href="login.jsp">首页</a>
+        <a href="recommend.jsp">推荐</a>
+        <a href="history.jsp">浏览历史</a>
+        <a href="collect.html">收藏</a>
+        <a href="photo.html">相册</a>
+        <a href="${pageContext.request.contextPath}/comment">论坛</a>
+        <a href="contact.html">联系我们</a>
+    </nav>
+</header>
+<!-- 联系我们 -->
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>联</span>
+        <span>系</span>
+        <span>我</span>
+        <span>们</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/999.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="您的姓名">
+                <input type="email" placeholder="您的邮箱">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="您的电话">
+                <input type="text" placeholder="反馈主题">
+            </div>
+            <textarea placeholder="您反馈的内容" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="发送给我们">
+        </form>
+
+    </div>
+
+</section>
+
+</body>
+</html>
